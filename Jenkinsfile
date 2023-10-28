@@ -26,13 +26,5 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            stage('Terraform Cleanup') {
-                steps {
-                    sh 'terraform destroy -auto-approve'
-                }
-            }
-        }
-    }
+  }
 }
