@@ -1,0 +1,4 @@
+echo "lol gow singhan"
+> mya.txt
+qw
+:wq
